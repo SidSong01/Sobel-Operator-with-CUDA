@@ -12,15 +12,15 @@
 
 # Overview:
 ---
-
 This is a project comparing the speed difference between the CPU and GPU implementation on Sobel Operator. For CPU implementation, OpenCV package and CPU computing on pixels have been tried. For GPU implementation, CUDA is used and different arrangement for the threads and blocks have been tried.
 
 # Results:
 ---
-
-* The test image is:
+* The test image: 
 
 ![alt text][image5]
+
+Size: 599 x 393
 
 * CPU with OpenCV package:
 
@@ -41,7 +41,7 @@ This is a project comparing the speed difference between the CPU and GPU impleme
 
 ![alt text][image3]
 
---
+----
 
 * Speed difference
 
