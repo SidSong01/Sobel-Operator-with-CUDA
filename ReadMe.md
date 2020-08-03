@@ -11,13 +11,11 @@
  Include a quantified comparision, e.g., showing a table with norm difference between serail and parallel implementation.
 
 # Overview:
-
 ---
 
 This is a project comparing the speed difference between the CPU and GPU implementation on Sobel Operator. For CPU implementation, OpenCV package and CPU computing on pixels have been tried. For GPU implementation, CUDA is used and different arrangement for the threads and blocks have been tried.
 
 # Results:
-
 ---
 
 * The test image is:
@@ -43,8 +41,19 @@ This is a project comparing the speed difference between the CPU and GPU impleme
 
 ![alt text][image3]
 
-# How to run:
+--
 
+* Speed difference
+
+| Method       		|     Execution Time (ms)	       | 
+|:---------------------:|:---------------------------------------------:| 
+| OpenCV package        | 1.700   							| 
+| CPU on pixels	| 12.545	|
+| GPU with single thread and block | 66.028 		|
+| GPU with multiple threads and blocks | 0.528		|
+
+
+# How to run:
 ---
 
 * Compile:
