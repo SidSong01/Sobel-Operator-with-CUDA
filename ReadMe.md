@@ -8,7 +8,7 @@
 
 # TO DO:
 
- Include a quantified comparision, e.g., showing a table with norm difference between serail and parallel implementation.
+ Include a quantified comparision, e.g., showing a table with norm difference between serail and parallel implementation. Improve code organization.
 
 # Overview:
 ---
