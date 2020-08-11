@@ -5,6 +5,7 @@
 [image3]: ./outputs/gpu2.jpg
 [image4]: ./outputs/opencv.jpg
 [image5]: ./test01.jpg
+[image6]: ./outputs/screenshotResults.png
 
 # TO DO:
 
@@ -13,6 +14,21 @@
 # Overview:
 ---
 This is a project comparing the speed difference between the CPU and GPU implementation on Sobel Operator. For CPU implementation, OpenCV package and CPU computing on pixels have been tried. For GPU implementation, CUDA is used and different arrangement for the threads and blocks have been tried.
+
+# How to run:
+---
+
+* Compile:
+
+	`$ make`
+
+* Run:
+
+	`$./benchmarking.sh`
+
+* Output information
+
+![alt text][image6]
 
 # Results:
 ---
@@ -52,14 +68,3 @@ Size: 599 x 393
 | GPU with single thread and block | 66.028 		|
 | GPU with multiple threads and blocks | 0.528		|
 
-
-# How to run:
----
-
-* Compile:
-
-	`$ make`
-
-* Run:
-
-	`$./benchmarking.sh`
